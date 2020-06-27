@@ -15,9 +15,6 @@ class MyTasks extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.dark,
       ),
-      /* darkTheme: ThemeData(
-        brightness: Brightness.dark,
-      ), */
       home: BlocProvider(
           bloc: TasksBloc(),
           child: TabAppBar()
